@@ -1,0 +1,94 @@
+
+/* Ensures padding and border don't add to width/height */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Light gray background */
+body {
+    background-color: #ede5ec;
+    background-image: url("../images/background.png");
+    background-size: 100%;
+}
+
+/* Header */
+.header {
+    padding: 20px; /* Padding for content inside header */
+    margin-bottom: 32px; /* Space between header and content */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #e18d06; /* Dark blue background */
+    color: #ffffff; /* White text */
+}
+
+
+.header h1 {
+    display: inline-block; /* Puts the website title next to navigation */
+    font-size: 48px; /* Large font size for main heading */
+}
+
+
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right; /* Aligns navigation to the right */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.header nav ul {
+    list-style-type: none;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.header a {
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.subtitles {
+    font-size: 32px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #f3f2f9;
+    text-align: right;
+    margin-bottom: 32px;
+    margin-right: 10px;
+}
+
+section h2{
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #f3f2f9;
+    text-align: left;
+    margin-bottom: 32px;
+    border-right: 6px solid #e18d06;
+    padding-right: 1%;
+    height: 100px;
+}
+
+section p{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #f3f2f9;
+    text-align: right;
+    margin-bottom: 32px;
+    margin-left: 10px;
+}
+
+#contact-me a {
+    display: inline-block;
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+    color: #f3f2f9;
+    text-align: right;
+    margin-bottom: 32px;
+    margin-left: 10px;
+}
